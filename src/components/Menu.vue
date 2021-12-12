@@ -1,11 +1,11 @@
 <template>
-  <div class="hello">
+  <div class="menu">
+    <h3>this is menu</h3>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
 }
 </script>
 

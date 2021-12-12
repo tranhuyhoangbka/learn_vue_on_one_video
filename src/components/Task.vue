@@ -1,11 +1,20 @@
 <template>
-  <div class="hello">
+  <div class="Task">
+    <p>{{taskData.content}}</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Task',
+  props: {
+    taskData: Object
+  },
+  data() {
+    return {
+
+    }
+  }
 }
 </script>
 
